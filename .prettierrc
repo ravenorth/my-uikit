@@ -1,0 +1,24 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "endOfLine": "lf",
+    "overrides": [
+        {
+          "files": "*.{ts,tsx}",
+          "options": {
+            "useTabs": true,
+            "tabWidth": 1,
+            "semi": false
+          }
+        },
+        {
+          "files": "*.{css}",
+          "options": {
+            "tabWidth": 2,
+            "semi": true
+          }
+        }
+      ]
+    
+}
